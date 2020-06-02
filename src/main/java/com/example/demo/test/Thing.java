@@ -10,7 +10,7 @@ import lombok.Data;
  **/
 class Demo {
     public static void main(String[] args) throws CloneNotSupportedException {
-        User user = new User("四哥666");
+        User user = new User("四哥666888");
         Thing thing = new Thing("ab", "hello", user);
 
         Object clone = thing.clone();
